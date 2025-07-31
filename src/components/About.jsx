@@ -1,5 +1,6 @@
 import { ImageWithFallback } from "../../public/Fallback.jsx";
 import { Code, Coffee, Lightbulb } from "lucide-react";
+import profile from './profile.jpg
 
 export default function About() {
     return (
@@ -63,7 +64,7 @@ export default function About() {
                             <div className="relative bg-background border border-border rounded-2xl p-6 backdrop-blur-sm">
                                 <div className="aspect-square rounded-xl overflow-hidden">
                                     <ImageWithFallback
-                                        src="./profile.jpg"
+                                        src={profile}
                                         alt="Adarsh Pawaiya - Developer"
                                         className="w-full h-full object-cover"
                                     />
