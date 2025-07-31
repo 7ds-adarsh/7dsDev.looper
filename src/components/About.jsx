@@ -1,6 +1,6 @@
 import { ImageWithFallback } from "../../public/Fallback.jsx";
 import { Code, Coffee, Lightbulb } from "lucide-react";
-import profile from './profile.jpg
+import profile from './profile.jpg';
 
 export default function About() {
     return (
