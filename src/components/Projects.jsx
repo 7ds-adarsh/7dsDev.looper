@@ -2,13 +2,14 @@ import { Card, CardContent } from "./ui/card.jsx";
 import { Button } from "./ui/button.jsx";
 import { ImageWithFallback } from "../../public/Fallback.jsx";
 import { ExternalLink, Github, ArrowRight } from "lucide-react";
+import waveproject from '../assets/wave-project.png';
 
 export default function Projects() {
     const projects = [
         {
             title: "landing-page",
             description: "A modern landing page built with pur Html, Javascript and Tailwind CSS, featuring responsive design, smooth animations, and a clean user interface.",
-            image: "../assets/wave-project.png",
+            image: {waveproject},
             tech: ["HTML", "Tailwind", "Javascript"],
             github: "https://github.com/7ds-adarsh/wave2.0",
             live: "https://7ds-adarsh.github.io/wave2.0/home.html"
