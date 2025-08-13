@@ -2,14 +2,13 @@ import { Card, CardContent } from "./ui/card.jsx";
 import { Button } from "./ui/button.jsx";
 import { ImageWithFallback } from "../../public/Fallback.jsx";
 import { ExternalLink, Github, ArrowRight } from "lucide-react";
-import waveproject from '../assets/wave-project.png';
 
 export default function Projects() {
     const projects = [
         {
             title: "landing-page",
             description: "A modern landing page built with pur Html, Javascript and Tailwind CSS, featuring responsive design, smooth animations, and a clean user interface.",
-            image: {waveproject},
+            image: "https://ibb.co/BKBcVvp7",
             tech: ["HTML", "Tailwind", "Javascript"],
             github: "https://github.com/7ds-adarsh/wave2.0",
             live: "https://7ds-adarsh.github.io/wave2.0/home.html"
@@ -22,6 +21,15 @@ export default function Projects() {
             github: "https://github.com/7ds-adarsh/spotify-clone",
             live: "https://7ds-adarsh.github.io/spotify-clone/"
         },
+
+        {
+            title: "Weather App",
+            discription: "A weather app that provides real-time weather information for any location. Built with React, Tailwind CSS, and OpenWeatherMap API.",
+            image: "https://plus.unsplash.com/premium_photo-1675968514495-7f3be70dddd6?q=80&w=1316&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            tech: ["HTML", "CSS", "JavaScript"],
+            github: "https://github.com/7ds-adarsh/Weather-app",
+            live: "https://7ds-adarsh.github.io/Weather-app/"
+        }
     ];
 
     return (
